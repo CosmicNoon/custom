@@ -14,10 +14,10 @@ margin: top-px right-px bottom-px left-px;
 @import 'color';
 @import 'font';
 @import 'variables';
+@import 'button';
 
 body{
   background-color: lighten($primary, 12%);
-  width: 95%;
   margin: auto;
   font-family: $default;
   a{
@@ -25,44 +25,119 @@ body{
   }
 }
 
+h2{
+  font-family: $logofont;
+  font-size: 200%;
+}
+
 header{
+  color: $logo;
+  width: 100%;
 img{
   display: inline-block;
+  height: 10%;
+  width: 10%;
+}
+h1{
+  font-family: $logofont;
+  font-size: 100px;
+  text-align: center;
 }
 }
 
 nav{
   background-color: $primary;
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 15px;
+  grid-template-columns: 32% 32% 32%;
+  grid-column-gap: 1%;
+  padding-left: 20%;
+  margin:0;
+  border-top: 4px double $logo;
+  border-bottom: 4px double $logo;
+  a{
+    text-align: center;
+    color: $logo;
+  }
 }
 
 footer{
+  border-top: 3px double $logo;
+  padding: 2%;
+  text-align: center;
   background-color: $primary;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-column-gap: 15px;
+  h2{
+    color: $logo;
+  }
 }
+
+article{
+  padding: 3%;
+  }
+
+  #about{
+    margin-top: 2%;
+    background-color: lighten($primary, 5%);
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-column-gap: 3%;
+
+    img{
+      width: 100%;
+      border-radius: 3px;
+    }
+    h3{
+      color: $logo;
+      font-size: 150%;
+    }
+    h4{
+      font-style: italic;
+      color: $logo;
+      text-align: center;
+    }
+  }
 
 .imgdisplay{
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 15px;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 2%;
+  img{
+    width:90%;
+  }
 }
 
 #kittens{
+  img{
+    border: 5px solid $tert;
+    display: inline-block;
+    width: 100%;
+  }
+  a{
+    color: $secondary
+  }
   details{
+  width: 101%;
   border-radius: 5px;
   padding: 1%;
-  background-color: $kitten;
+  background-color: $tert;
   }
 }
 
 #cats{
+  img{
+    border: 5px solid $tert;
+    display: inline-block;
+    width: 100%;
+  }
+  a{
+    color: $secondary
+  }
   details{
+  width: 101%;
   border-radius: 5px;
   padding: 1%;
-  background-color: $cat;
+  background-color: $tert;
   }
 }

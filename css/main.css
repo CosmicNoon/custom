@@ -1,1 +1,143 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600");body{background-color:#f9eac7;width:95%;margin:auto;font-family:"open sans",sans-serif}body a{text-decoration:none}header img{display:inline-block}nav{background-color:#F3D690;display:grid;grid-template-columns:auto auto auto;grid-column-gap:15px}footer{background-color:#F3D690;display:grid;grid-template-columns:auto auto auto;grid-column-gap:15px}.imgdisplay{display:grid;grid-template-columns:auto auto auto;grid-column-gap:15px}#kittens details{border-radius:5px;padding:1%;background-color:#9CB7D5}#cats details{border-radius:5px;padding:1%;background-color:#F66D75}
+@charset "UTF-8";
+/*
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+padding: top-px right-px bottom-px left-px;
+margin: top-px right-px bottom-px left-px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 15px;
+
+*/
+/*darken and lighten i main
+  color: darken/lighten($red, 10%)*/
+/*gul*/
+/*white*/
+/*rød*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600");
+@import url("https://fonts.googleapis.com/css?family=Montez");
+/*darken and lighten i main
+  color: darken/lighten($red, 10%)*/
+/*gul*/
+/*white*/
+/*rød*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #F66D75;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px; }
+
+#myBtn:hover {
+  background-color: #FF173E; }
+
+body {
+  background-color: #f9eac7;
+  margin: auto;
+  font-family: "open sans", sans-serif; }
+  body a {
+    text-decoration: none; }
+
+h2 {
+  font-family: "Montez", cursive;
+  font-size: 200%; }
+
+header {
+  color: #FF173E;
+  width: 100%; }
+  header img {
+    display: inline-block;
+    height: 10%;
+    width: 10%; }
+  header h1 {
+    font-family: "Montez", cursive;
+    font-size: 100px;
+    text-align: center; }
+
+nav {
+  background-color: #F3D690;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-column-gap: 1%;
+  padding-left: 20%;
+  margin: 0;
+  border-top: 4px double #FF173E;
+  border-bottom: 4px double #FF173E; }
+  nav a {
+    text-align: center;
+    color: #FF173E; }
+
+footer {
+  border-top: 3px double #FF173E;
+  padding: 2%;
+  text-align: center;
+  background-color: #F3D690;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 15px; }
+  footer h2 {
+    color: #FF173E; }
+
+article {
+  padding: 3%; }
+
+#about {
+  margin-top: 2%;
+  background-color: #f5dfa7;
+  display: grid;
+  grid-template-columns: 60% 30%;
+  grid-column-gap: 3%; }
+  #about img {
+    width: 100%;
+    border-radius: 3px; }
+  #about h3 {
+    color: #FF173E;
+    font-size: 150%; }
+  #about h4 {
+    font-style: italic;
+    color: #FF173E;
+    text-align: center; }
+
+.imgdisplay {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 2%; }
+  .imgdisplay img {
+    width: 90%; }
+
+#kittens img {
+  border: 5px solid #F66D75;
+  display: inline-block;
+  width: 100%; }
+#kittens a {
+  color: #ffffff; }
+#kittens details {
+  width: 101%;
+  border-radius: 5px;
+  padding: 1%;
+  background-color: #F66D75; }
+
+#cats img {
+  border: 5px solid #F66D75;
+  display: inline-block;
+  width: 100%; }
+#cats a {
+  color: #ffffff; }
+#cats details {
+  width: 101%;
+  border-radius: 5px;
+  padding: 1%;
+  background-color: #F66D75; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,68 @@
+/*
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+padding: top-px right-px bottom-px left-px;
+margin: top-px right-px bottom-px left-px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 15px;
+
+*/
+@import 'color';
+@import 'font';
+@import 'variables';
+
+body{
+  background-color: lighten($primary, 12%);
+  width: 95%;
+  margin: auto;
+  font-family: $default;
+  a{
+    text-decoration: none;
+  }
+}
+
+header{
+img{
+  display: inline-block;
+}
+}
+
+nav{
+  background-color: $primary;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 15px;
+}
+
+footer{
+  background-color: $primary;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 15px;
+}
+
+.imgdisplay{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 15px;
+}
+
+#kittens{
+  details{
+  border-radius: 5px;
+  padding: 1%;
+  background-color: $kitten;
+  }
+}
+
+#cats{
+  details{
+  border-radius: 5px;
+  padding: 1%;
+  background-color: $cat;
+  }
+}

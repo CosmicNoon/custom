@@ -140,4 +140,15 @@ article {
   padding: 1%;
   background-color: #F66D75; }
 
+.imgdis {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  grid-column-gap: 2%;
+  margin-bottom: 3%; }
+  .imgdis img {
+    width: 100%;
+    border: 3px solid #F66D75; }
+  .imgdis h1, .imgdis h2, .imgdis h3, .imgdis h4, .imgdis h5, .imgdis h6 {
+    color: #FF173E; }
+
 /*# sourceMappingURL=main.css.map */

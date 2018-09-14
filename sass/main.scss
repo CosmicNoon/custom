@@ -141,3 +141,17 @@ article{
   background-color: $tert;
   }
 }
+
+.imgdis{
+  display: grid;
+  grid-template-columns: 30% 50%;
+  grid-column-gap: 2%;
+  margin-bottom: 3%;
+  img{
+    width: 100%;
+    border: 3px solid $tert;
+  }
+  h1, h2, h3, h4, h5, h6{
+    color: $logo;
+  }
+}

@@ -48,9 +48,9 @@ h1{
 nav{
   background-color: $primary;
   display: grid;
-  grid-template-columns: 32% 32% 32%;
-  grid-column-gap: 1%;
+  grid-template-columns: 20% 20% 20% 20%;
   padding-left: 20%;
+  grid-column-gap: 1%;
   margin:0;
   border-top: 4px double $logo;
   border-bottom: 4px double $logo;
